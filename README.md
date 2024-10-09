@@ -36,8 +36,6 @@ The project is organized into several key folders and scripts:
 3. **Movement Logic**:
    - Implemented movement logic using an if-statement to keep the player within defined bounds on both sides of the screen.
 
-4. **Code Cleanup**:
-   - Cleaned up code by replacing hardcoded values with variables for better readability and maintainability.
 
 ### Food Flight
 
