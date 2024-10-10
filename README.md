@@ -50,7 +50,7 @@ The project is organized into several key folders and scripts:
    - Converted animals into prefabs that can be instantiated during gameplay.
 
 4. **Object Destruction**:
-   - Created a `DestroyOutOfBounds` script to destroy projectiles and animals that leave the play area.
+   - Created a `Destroy.cs` script to destroy projectiles and animals that leave the play area.
 
 ### Random Animal Spawn
 
