@@ -16,9 +16,9 @@ The project is organized into several key folders and scripts:
 
 - **Assets**: Contains all imported assets, including player, animal, and food models.
 - **Scripts**: Includes C# scripts for controlling player movement and projectile behavior.
-  - `PlayerController.cs`: Manages player movement and bounds checking.
+  - `ControlPlayer.cs`: Manages player movement and bounds checking.
   - `MoveForward.cs`: Controls the forward movement of projectiles.
-  - `DestroyOutOfBounds.cs`: Handles the destruction of objects that leave the play area.
+  - `Destroy.cs`: Handles the destruction of objects that leave the play area.
   - `SpawnManager.cs`: Manages the spawning of animals.
 
 ## Implementation Details
@@ -30,7 +30,7 @@ The project is organized into several key folders and scripts:
    - Added a player character, three animals, and one food object to the scene.
 
 2. **User Input**:
-   - Created a `PlayerController` script to track user input for horizontal movement.
+   - Created a `ControlPlayer.cs` script to track user input for horizontal movement.
    - Used `Input.GetAxis("Horizontal")` to get user input and move the player left or right based on key presses.
 
 3. **Movement Logic**:
